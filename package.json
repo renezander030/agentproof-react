@@ -1,0 +1,46 @@
+{
+  "name": "agentproof-react",
+  "version": "0.1.0",
+  "description": "Deterministic review gates for AI-generated React and Next.js code.",
+  "type": "module",
+  "bin": {
+    "agentproof-react": "./bin/agentproof-react.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "examples",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "check": "node ./bin/agentproof-react.js check examples/good",
+    "demo:bad": "node ./bin/agentproof-react.js check examples/bad",
+    "demo:good": "node ./bin/agentproof-react.js check examples/good",
+    "pack:dry": "npm pack --dry-run --cache ./.npm-cache",
+    "test": "node ./test/run.js"
+  },
+  "keywords": [
+    "react",
+    "nextjs",
+    "ai",
+    "agent",
+    "code-review",
+    "lint",
+    "cli"
+  ],
+  "author": "Rene Zander",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renezander030/agentproof-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/renezander030/agentproof-react/issues"
+  },
+  "homepage": "https://github.com/renezander030/agentproof-react#readme",
+  "engines": {
+    "node": ">=18"
+  }
+}
