@@ -1,7 +1,7 @@
 {
   "name": "agentproof-react",
-  "version": "0.1.0",
-  "description": "Deterministic review gates for AI-generated React and Next.js code.",
+  "version": "0.1.1",
+  "description": "CLI review gates for AI-generated React and Next.js code before it ships.",
   "type": "module",
   "bin": {
     "agentproof-react": "bin/agentproof-react.js"
@@ -24,11 +24,17 @@
   "keywords": [
     "react",
     "nextjs",
+    "next-js",
+    "frontend",
     "ai",
-    "agent",
+    "ai-agents",
+    "ai-generated-code",
     "code-review",
+    "static-analysis",
     "lint",
-    "cli"
+    "cli",
+    "ci",
+    "developer-tools"
   ],
   "author": "Rene Zander",
   "license": "MIT",
