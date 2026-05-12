@@ -12,6 +12,8 @@ npx agentproof-react check
 
 Bad React in. Review report out. No model self-grading.
 
+It follows the same production-agent safety pattern as [agent-approval-gate](https://github.com/renezander030/agent-approval-gate): models can draft, but deterministic gates decide what moves forward.
+
 ---
 
 ## Demo
