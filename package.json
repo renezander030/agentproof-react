@@ -4,7 +4,7 @@
   "description": "Deterministic review gates for AI-generated React and Next.js code.",
   "type": "module",
   "bin": {
-    "agentproof-react": "./bin/agentproof-react.js"
+    "agentproof-react": "bin/agentproof-react.js"
   },
   "files": [
     "bin",
